@@ -27,25 +27,25 @@ module.exports = {
         },
         // Music commands category
         {
-          name: '▶️  Music',
+          name: '<a:music:1238858364553924720>  Music',
           value: '`play`, `stop`, `history`,`volume`,`pause`,`resume`,`247`',
           inline: true,
         },
         //fun category
         {
-          name: '▶️  Fun',
+          name: '<:funwaa:1238857885442900031>  Fun',
           value: ' `ascii`, `joke`, `meme`, `roll`',
           inline: true,
         },
         //image category
         {
-          name: '▶️  Image',
+          name: '<:image:1238857617556639755>  Image',
           value: '`cat`, `dog`',
           inline: true,
         },
         //anime category
         {
-          name: '▶️  Anime',
+          name: '<:Gojosimp:1223872994103922728>  Anime',
           value: '`<prefix>animecommands for more info`',
           inline: true,
         },
@@ -61,17 +61,17 @@ module.exports = {
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://discord.com/invite/yM7kxvRbrZ')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
+      .setURL('https://discord.com/invite/yM7kxvRbrZ')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
+      .setLabel('insta')
+      .setURL('https://www.instagram.com/yuta.xae?igsh=MTVzenNodGt3MmE5cw==')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
